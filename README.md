@@ -11,16 +11,13 @@ This project explores the evolution of winning strategies in the NBA over the la
 
 **Validation:** Performed rigorous data integrity checks to ensure zero null values in primary predictors and removed "League Average" noise for cleaner correlation analysis.  
 
-**Visualization:** Built a Power BI dashboard to visualize trends, such as the correlation between 3-point attempts (x3pa_per_game) and win percentages.  
 
 ## Key Features & Metrics
 **Efficiency Tracking:** Analysis of o_rtg and d_rtg to determine a team's net efficiency.  
 
 **The 3-Point Trend:** Visualizing the impact of increased x3pa_per_game on total wins.  
 
-**Pace Analysis:** Monitoring how the pace of the game has shifted from 2010 to 2024 and its relationship to turnovers (tov_pg).  
-
-**Playoff Success:** Filtering data to see which statistical profiles consistently lead to playoffs appearances.  
+**Pace Analysis:** Monitoring how the pace of the game has shifted from 2010 to 2024 and its relationship to turnovers (tov_pg).   
 
 ## Tech Stack
 **Language:** Python (Pandas)
