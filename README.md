@@ -5,19 +5,19 @@ Analyzed NBA team statistics from 2010–2024 to identify which performance metr
 This project explores the evolution of winning strategies in the NBA over the last 15 seasons. By analyzing team-level statistics, the project identifies which metrics—such as 3-point volume, offensive efficiency, and pace—have become the strongest predictors of team success in the modern era.
 
 ## The Data Workflow
-**Extraction & Cleaning:** Used Python to process and merge multiple datasets, including team_stats_per_game, team_summaries, and team_totals.  
+**Extraction & Cleaning:** Used Python to process and merge multiple datasets, including `team_stats_per_game`, `team_summaries`, and `team_totals`.  
 
-**Database Management:** Engineered a cleaned SQL table structure to handle metrics like o_rtg (Offensive Rating), d_rtg (Defensive Rating), and pace.  
+**Database Management:** Engineered a cleaned SQL table structure to handle metrics like `o_rtg` (Offensive Rating), `d_rtg` (Defensive Rating), and pace.  
 
 **Validation:** Performed rigorous data integrity checks to ensure zero null values in primary predictors and removed "League Average" noise for cleaner correlation analysis.  
 
 
 ## Key Features & Metrics
-**Efficiency Tracking:** Analysis of o_rtg and d_rtg to determine a team's net efficiency.  
+**Efficiency Tracking:** Analysis of `o_rtg` and `d_rtg` to determine a team's net efficiency.  
 
-**The 3-Point Trend:** Visualizing the impact of increased x3pa_per_game on total wins.  
+**The 3-Point Trend:** Visualizing the impact of increased `x3pa_per_game` on total wins.  
 
-**Pace Analysis:** Monitoring how the pace of the game has shifted from 2010 to 2024 and its relationship to turnovers (tov_pg).   
+**Pace Analysis:** Monitoring how the pace of the game has shifted from 2010 to 2024 and its relationship to turnovers (`tov_pg`).   
 
 ## Tech Stack
 **Language:** Python (Pandas)
@@ -53,4 +53,4 @@ One of the more surprising insights is the role of Pace:
 
 - **Speed ≠ Wins:** While the NBA has seen a sharp increase in pace due to rule changes and offensive innovation, pace alone shows little correlation with winning.  
 
-- **Ball Security:** Teams that commit fewer turnovers (tov_pg) tend to win more, though this effect is secondary to raw scoring efficiency.
+- **Ball Security:** Teams that commit fewer turnovers (`tov_pg`) tend to win more, though this effect is secondary to raw scoring efficiency.
